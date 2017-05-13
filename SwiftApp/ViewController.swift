@@ -20,14 +20,10 @@ class ViewController: UIViewController {
     
     @IBAction func ButtonTapped(_ sender: Any) {
         
-        let addition = false
-        
-        if addition {
-            HelloLabel.text = "Answer is.. \(Double(text1.text!)! + Double(text2.text!)!)"
-            
-        }else{
-            HelloLabel.text = "Answer is.. \(Double(text1.text!)! - Double(text2.text!)!)"
-        }
+        HelloLabel.text = "Answer : \(Double(text1.text!)! + Double(text2.text!)!)"
+    
+    
+    
     }
     
     
